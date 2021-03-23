@@ -8,4 +8,9 @@ public abstract class Engine {
 
     public abstract void start();
     public abstract void stop();
+
+    public Engine(String model, double volume) {
+        this.model = model;
+        this.volume = volume;
+    }
 }
